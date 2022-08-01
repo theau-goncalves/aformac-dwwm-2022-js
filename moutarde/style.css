@@ -1,0 +1,53 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.product img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.left {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+form button{
+    display: block;
+    width: 100%;
+    background: #b72821;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.7rem;
+}
+
+
+.input-error {
+    border-color: red;
+}
+
+.input-error:focus {
+    outline-color : red;
+}
